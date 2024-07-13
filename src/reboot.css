@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline
+}
+
+ol,
+ul {
+  list-style: none
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+caption,
+td,
+th {
+  text-align: left;
+  vertical-align: middle
+}
+blockquote,
+q {
+  quotes: none
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none
+}
+a img {
+  border: none
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+body,
+html {
+  height: 100%
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

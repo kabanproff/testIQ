@@ -1,0 +1,36 @@
+@import url(variables.css);
+@import url(reboot.css);
+@import url(typografy.css);
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 46px;
+
+  &:before {
+    content: '';
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  background-image: url("assets/images/rain_bk2.jpg");
+  background-color: var(--body-bg);
+    z-index: -1;
+  }
+
+
+}
+
+
+

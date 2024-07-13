@@ -1,0 +1,52 @@
+:root {
+
+  /*colors*/
+
+  --color-primary: #FFC700;
+  --color-white: #FFFFFF;
+  --color-black-1: #0D0C11;
+  --color-black-2: #181818;
+  --color-grey-1: #DADADA;
+  --color-grey-2: #8E8E8E;
+  --color-grey-3: #272727;
+
+  --body-bg: var(--color-black-2);
+  --btn-color: var(--color-black-1);
+  --btn-bg-disabled: var(--color-grey-1);
+  --btn-color-disabled: var(--color-grey-2);
+
+  --link-color-hover: #F4CE0C;
+
+  --text-color-black: #0D0C11;
+  --text-color-black-2: var(--color-black-2);
+  --text-color-white: #FFFFFF;
+  --text-color-grey: #272727;
+
+
+  /* fonts */
+  --pt-font: "PT Serif", serif;
+  --merriw-font: "Merriweather", serif;
+  --roboto-font: "Roboto", sans-serif;
+  --yeseva-font: "Yeseva One", serif;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-black: 900;
+
+
+    /*lh*/
+  --btn-lh: 1.257;
+  /*--main-color: #bada55;*/
+
+  color: var(--color-white);
+
+
+
+
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: var(--font-regular);
+}
