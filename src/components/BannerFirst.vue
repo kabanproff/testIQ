@@ -45,7 +45,7 @@ img {
   display: inline-block;
   margin-right: 21px;
   margin-top: -7px;
-  margin-bottom: 4px;
+  margin-bottom: -1px;
 }
 
 button {

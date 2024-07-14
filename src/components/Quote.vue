@@ -16,7 +16,7 @@ import IconQuote from '../assets/quote.svg?component';
 
 .quote {
   padding-top: 43px;
-  padding-bottom: 9px;
+  padding-bottom: 8px;
   position: relative;
   text-align: center;
   line-height: 23px;
@@ -49,8 +49,8 @@ import IconQuote from '../assets/quote.svg?component';
 .container {
   display: flex;
   flex-direction: column;
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
   gap: 17px;
 }
 

@@ -55,7 +55,8 @@ header {
   width: 30px;
   height: 30px;
   position: relative;
-  left: 0;
+  left: 2px;
+  top: 2px;
   transition: all 0.25s ease-in-out;
 
   span {
@@ -70,7 +71,7 @@ header {
   span::before,
   span::after {
     display: block;
-    width: 20px;
+    width: 24px;
     height: 2px;
     background-color: var(--burg-color);
     transition-property: background-color, transform;
