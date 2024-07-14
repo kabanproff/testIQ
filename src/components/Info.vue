@@ -1,5 +1,4 @@
 <script setup>
-import IconTop from '../assets/arrowTop.svg?component';
 import BannerFirst from "./BannerFirst.vue";
 import Quote from "./Quote.vue";
 import BannerSecond from "./BannerSecond.vue";
@@ -10,7 +9,7 @@ import BannerThird from "./BannerThird.vue";
   <div class="info">
     <BannerFirst/>
     <Quote>
-      Профессиональный IQ-тест позволяет не только определить коэффициент вашего интеллекта,
+      Профессиональный<br> IQ-тест позволяет не только определить коэффициент вашего интеллекта,<br>
       но и выработать список рекомендаций для повышения этого показателя.
     </Quote>
     <BannerSecond/>
@@ -21,7 +20,6 @@ import BannerThird from "./BannerThird.vue";
 
 <style scoped>
 .info {
-  //text-align: center;
   padding-top: 26px;
 }
 

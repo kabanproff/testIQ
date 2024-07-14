@@ -11,7 +11,7 @@ console.log(router)
 <template>
   <Header />
     <router-view/>
-  <Main/>
+
   <Footer/>
   <div>
   </div>
