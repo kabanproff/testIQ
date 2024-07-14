@@ -11,9 +11,6 @@ console.log(router)
 <template>
   <Header />
     <router-view/>
-
   <Footer/>
-  <div>
-  </div>
 </template>
 

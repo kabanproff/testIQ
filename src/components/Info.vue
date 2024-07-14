@@ -14,15 +14,13 @@ import BannerThird from "./BannerThird.vue";
     </Quote>
     <BannerSecond/>
     <BannerThird/>
-     </div>
-
+  </div>
 </template>
 
 <style scoped>
 .info {
   padding-top: 26px;
 }
-
 </style>
 
 

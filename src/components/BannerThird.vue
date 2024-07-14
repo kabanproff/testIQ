@@ -24,7 +24,7 @@ import Button from "./Button.vue";
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.7px;
-  margin-bottom: 45px;
+  padding-bottom: 45px;
 }
 
 .banner::before,
@@ -32,14 +32,21 @@ import Button from "./Button.vue";
   content: '';
   display: block;
   position: absolute;
+  width: 65px;
+  height: 200px;
+  z-index: -1;
 }
 
 .banner::before {
   background-image: url("../assets/images/lightning_l.png");
+  bottom: 21px;
 }
 
 .banner::after {
   background-image: url("../assets/images/lightning_r.png");
+  right: 0;
+  width: 123px;
+  top: 64px;
 }
 
 .field {
@@ -56,7 +63,7 @@ import Button from "./Button.vue";
 }
 
 .text-primary {
-  letter-spacing: 1.1px;
+  letter-spacing: 1.2px;
 }
 
 p {
@@ -66,6 +73,10 @@ p {
 button {
   min-width: 199px;
   padding-bottom: 10px;
+}
+
+b {
+  letter-spacing: 0.8px;
 }
 </style>
 
