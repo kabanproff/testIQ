@@ -22,7 +22,7 @@ import BannerThird from "./BannerThird.vue";
 <style scoped>
 .info {
   //text-align: center;
-  padding-top: 25px;
+  padding-top: 26px;
 }
 
 </style>

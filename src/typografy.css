@@ -24,7 +24,7 @@ b {
 
 h1 {
   font-size: 30px;
-  line-height: 1.155;
+  line-height: 1.14;
   font-family: var(--yeseva-font);
 }
 
@@ -54,7 +54,7 @@ button:disabled {
 .btn-primary {
   background: radial-gradient(50% 50% at 50% 50%, #FFC700 0%, #FFC700 100%);
   border-radius: 20px;
-  padding: 14px 18px 11px;
+  padding: 13px 18px 9px;
 }
 
 .btn-secondary {

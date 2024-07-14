@@ -33,6 +33,8 @@ button {
   font-weight: var(--font-bold);
   display: block;
   margin: 0 auto;
+  min-width: 189px;
+  letter-spacing: 1.4px;
 }
 
 </style>
