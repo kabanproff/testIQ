@@ -5,9 +5,9 @@ import Button from "./Button.vue";
 <template>
   <div class="banner">
     <div class="container">
-    <p>Также по результатам теста
+    <p>Также по результатам теста<br>
       <b>вы получите</b> подробные <b>советы</b> по определению наиболее перспективной <b>для вашего типа <span class="lower">интеллекта</span> сферы деятельности</b>,
-      которая принесет вам скорейший финансовый результат.
+      <br>которая принесет вам скорейший финансовый результат.
     </p>
     <img src="../assets/images/baner2image.jpg" alt="brain image">
     <Button>пойти тест</Button>
@@ -22,13 +22,30 @@ import Button from "./Button.vue";
   padding-top: 38px;
   font-size: 16px;
   line-height: 24px;
+  padding-bottom: 31px;
 }
+
 p {
-  letter-spacing: 1.4px;
+  padding-left: 1px;
+  letter-spacing: 0.8px;
+  margin-bottom: 26px;
 }
 
 b {
   text-transform: uppercase;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  position: relative;
+  top: -9px;
+  left: -3px;
+  min-width: 199px;
+  padding-bottom: 12px;
 }
 </style>
 
