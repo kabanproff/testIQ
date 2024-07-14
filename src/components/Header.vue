@@ -34,7 +34,7 @@ header {
   left: 0;
   padding-top: 8px;
   padding-bottom: 8px;
-  //height: 46px;
+  z-index: 10;
 
   &.active {
     //height: 100vh;

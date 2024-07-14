@@ -1,29 +1,25 @@
 <script setup>
-import IconTop from '../assets/arrowTop.svg?component';
+import {useRouter} from "vue-router";
 
-// interface Props {
-//   secondary?: Boolean
-// }
+// const
 defineProps({
   secondary: Boolean
 })
-//
-// withDefaults(defineProps<{
-//   type: String
-// }>, {
-//   type: 'primary',
-// });
-// withDefaults(defineProps<Props>(), {
-//   type: 'primary',
-// })
 </script>
 
 <template>
-  <button
-    :class="secondary ? 'btn-secondary': 'btn-primary'"
+  <router-link
+    to="test"
+    custom
+    v-slot="{ navigate }"
   >
-    <slot/>
-  </button>
+    <button
+      :class="secondary ? 'btn-secondary': 'btn-primary'"
+      @click="navigate"
+    >
+      <slot/>
+    </button>
+  </router-link>
 </template>
 
 <style scoped>
