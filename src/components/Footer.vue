@@ -1,18 +1,8 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-import {onMounted, ref, watch} from "vue";
-import {useRoute} from "vue-router";
 
-const route = useRoute();
-onMounted(() => {
-  console.log(route.name)
-});
-watch(route, () => {
-  console.log(route.name)
-});
-
-
-console.log(route)
+defineProps({
+  route: String
+})
 const clearMenu = (e) => {
   isOpen.value = !isOpen.value;
 }
@@ -21,7 +11,7 @@ const clearMenu = (e) => {
 <template>
   <footer>
     <div class="container">
-      <div v-if="route.name === 'done'">!!!!!!!Text!!!!!!!</div>
+      <div v-if="route === 'done'">!!!!!!!Text!!!!!!!</div>
       <div class="footer__copy" v-else>&copy;&nbsp;2019</div>
     </div>
   </footer>

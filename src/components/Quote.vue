@@ -38,6 +38,7 @@ import IconQuote from '../assets/quote.svg?component';
     z-index: -1;
     background-image: url("../assets/images/bq-bg.png");
     background-position: center;
+    background-size: cover;
   }
 
   &::after {
