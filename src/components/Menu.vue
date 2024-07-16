@@ -9,12 +9,9 @@
 <template>
   <nav>
     <ul class="container">
-      <li><router-link @click="$emit('closeMenu')" active-class="active" to="/">Home</router-link></li>
+      <li><router-link @click="$emit('closeMenu')" active-class="active" to="/">Главная</router-link></li>
       <li><router-link @click="$emit('closeMenu')" active-class="active" to="/info">Информация о тесте</router-link></li>
       <li><router-link @click="$emit('closeMenu')" active-class="active" to="/test">пройти тест</router-link></li>
-<!--        <a href="/">Главная</a></li>-->
-<!--        <a href="/info">Информация о тесте</a></li>-->
-<!--        <a href="/test">пройти тест</a></li>-->
     </ul>
   </nav>
 </template>
@@ -26,10 +23,19 @@ nav {
   height: 0;
   opacity: 0;
   transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
 
-  .active & {
+  .modalOpened & {
     height: 100vh;
     opacity: 1;
+  }
+
+  ul {
+    padding: 66px 13px;
+  }
+
+  li {
+    margin-bottom: 22px;
   }
 }
 
